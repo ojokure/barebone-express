@@ -1,13 +1,6 @@
-const express = require("express");
-const helmet = require("helmet");
-const cors = require("cors");
+const server = require("./server");
+const PORT = process.env.PORT || 5000;
 
-server = express();
-
-server.use(helmet());
-server.use(cors());
-
-
-server.get("/", (req, res) => {
-    res.send('Yo')
-})
+server.listen(PORT, () => {
+  console.log(`server listen on port ${PORT}`);
+});
