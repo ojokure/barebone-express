@@ -1,0 +1,28 @@
+{
+  "name": "barebone-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojokure/barebone-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojokure/barebone-express/issues"
+  },
+  "homepage": "https://github.com/ojokure/barebone-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
